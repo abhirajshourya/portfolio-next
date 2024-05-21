@@ -5,7 +5,7 @@ import { getTrafficPageViews, getDependabotAlerts } from "../data";
 
 export const Article = async ({ project }) => {
 
-    const appLink = project.homepage ? project.homepage : project.html_url;
+    const appLink = project.html_url;
 
     /** Repository visitors info. */
     let views = <span title="Can't get traffic data for someone else's repo."><EyeClosedIcon className="w-4 h-4" /></span>;
@@ -58,18 +58,18 @@ export const Article = async ({ project }) => {
             <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                 {project.description}
             </p>
-            <div className="flex justify-between gap-2 items-center float-left mt-2 border-t-2 border-gray-700 border-opacity-50">
+            {/* <div className="flex justify-between gap-2 items-center float-left mt-2 border-t-2 border-gray-700 border-opacity-50">
                 <span className="text-zinc-500 text-xs">
                     {views}
                     {" "}
                     {alerts}
                 </span>
-            </div>
-            <div className="flex justify-between gap-2 items-center float-right mt-2 border-t-2 border-gray-700 border-opacity-50">
+            </div> */}
+            {/* <div className="flex justify-between gap-2 items-center float-right mt-2 border-t-2 border-gray-700 border-opacity-50">
                 <span className="text-zinc-500 text-xs align-middle flex items-center gap-1" title="GitHub repository link.">
                     <MarkGithubIcon className="w-4 h-4" /><Link href={project.html_url} className="hover:text-blue-800">{project.name}</Link>
                 </span>
-            </div>
+            </div> */}
         </article>
     );
 };
