@@ -1,11 +1,11 @@
 {
-	"description": "My hobby projects, most of them are Nextjs apps deployed to Vercel.",
-	"githubUsername": "octocat",
-	"avatarUrl": "",
-	"displayName": "",
-	"email": "",
-	"projects": {
-		"blacklist": [],
-		"heroNames": []
-	}
+  "description": "Software Engineer proficient in full-stack development, adept with core soft skills. Turning business requirements into Software solutions using AI, cloud, application development, and deployment expertise.",
+  "githubUsername": "abhirajshourya",
+  "avatarUrl": "",
+  "displayName": "Abhiraj Shourya",
+  "email": "abhirajshourya@gmail.com",
+  "projects": {
+    "blacklist": ["abhirajshourya"],
+    "heroNames": []
+  }
 }
