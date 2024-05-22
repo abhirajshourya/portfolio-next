@@ -40,9 +40,9 @@ const UserText = async ({ promise }) => {
     <p>
       Hi, my name is {user.name || data.displayName}
       <br />
-      Software Developer at {user.company || data.company} with over 2 years of experience in the industry
-	  <br />
-	  Specializing in Fullstack Development with React and Nodejs
+      Software Developer with over 2 years of experience in the industry
+      <br />
+      Specializing in Fullstack Development with React and Nodejs
     </p>
   );
 };
