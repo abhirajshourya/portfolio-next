@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@primer/octicons-react": "^19.9.0",
-    "@primer/react": "^36.18.0",
+    "@primer/react": "^36.20.0",
     "dotenv": "^16.4.5",
     "eslint-config-next": "^14.2.3",
-    "framer-motion": "^11.1.9",
+    "framer-motion": "^11.2.10",
     "lodash": "^4.17.21",
     "lucide-react": "^0.378.0",
     "next": "^14.2.3",
@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "postcss-nesting": "^12.1.4",
+    "postcss-nesting": "^12.1.5",
     "tailwindcss": "^3.4.3",
     "tailwindcss-debug-screens": "^2.2.1"
   }
